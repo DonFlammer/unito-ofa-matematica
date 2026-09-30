@@ -2,7 +2,7 @@
 
 Tutti i file di `ai/` uniti in uno: regole, corso ufficiale e refusi, piano di studio, appunti degli otto moduli, test d'ingresso, simulazioni e sintassi dei file. Generato da `strumenti/genera.mjs` (contenuti aggiornati al 30 settembre 2026): non modificarlo a mano, modifica i singoli file e rigenera. Prima di allegarlo compila la scheda «Chi studia» (file `ai/studente.md`), se vuoi un aiuto su misura.
 
-> Avvertenze: ricerche e testi si basano su fonti pubbliche del corso di laurea e di UniTo e sul materiale del corso «OFA Matematica»; ogni risultato matematico è stato ricalcolato in modo indipendente con il calcolo simbolico. Sono accurati e con fonti, ma possono contenere errori o dati superati; l'autore non si assume alcuna responsabilità. Per regole, date e iscrizioni fanno fede solo le fonti ufficiali (pagina dei requisiti del corso di laurea, Esse3, piattaforma OFA). Testo completo: AVVERTENZE.md nella radice del repository. Licenza CC BY-NC-SA 4.0.
+> Avvertenze: ricerche e testi si basano su fonti pubbliche del corso di laurea e di UniTo e sul materiale del corso «OFA Matematica»; ogni risultato matematico è stato ricalcolato in modo indipendente con il calcolo simbolico. Sono accurati e con fonti, ma possono contenere errori o dati superati; io, DonFlammer, che pubblico questa guida, non mi assumo alcuna responsabilità. Per regole, date e iscrizioni fanno fede solo le fonti ufficiali (pagina dei requisiti del corso di laurea, Esse3, piattaforma OFA). Testo completo: AVVERTENZE.md nella radice del repository. Licenza CC BY-NC-SA 4.0.
 
 
 ---
@@ -14,7 +14,7 @@ Tutti i file di `ai/` uniti in uno: regole, corso ufficiale e refusi, piano di s
 
 Questa cartella raccoglie in Markdown tutto ciò che serve a un'AI per aiutare a recuperare l'**OFA di matematica** del corso di laurea in Informatica dell'Università di Torino **senza rifare le ricerche da zero**: le regole ufficiali con le fonti, le date, com'è fatta la prova, com'è organizzato il corso della piattaforma OFA (con i refusi del materiale già verificati), gli appunti completi degli otto moduli, un test d'ingresso, otto simulazioni della prova e un piano di studio. Le pagine del sito sono generate da questi stessi file, quindi il contenuto è identico.
 
-> **⚠️ Avvertenze.** Ricerche e testi si basano su fonti pubbliche del corso di laurea e di UniTo e sul materiale del corso «OFA Matematica», consultato sulla piattaforma con l'accesso di uno studente. Ogni risultato matematico è stato ricalcolato una seconda volta, in modo indipendente, con il calcolo simbolico. Sono accurati e con fonti, ma possono contenere errori o dati superati. **L'autore non si assume alcuna responsabilità**; chi li usa lo fa a proprio rischio e deve verificare le informazioni importanti (regole, date, iscrizioni) sulle fonti ufficiali. Testo completo: [../AVVERTENZE.md](../AVVERTENZE.md).
+> **⚠️ Avvertenze.** Ricerche e testi si basano su fonti pubbliche del corso di laurea e di UniTo e sul materiale del corso «OFA Matematica», consultato sulla piattaforma con l'accesso di uno studente. Ogni risultato matematico è stato ricalcolato una seconda volta, in modo indipendente, con il calcolo simbolico. Sono accurati e con fonti, ma possono contenere errori o dati superati. **Io, DonFlammer, che pubblico questa guida, non mi assumo alcuna responsabilità**; chi li usa lo fa a proprio rischio e deve verificare le informazioni importanti (regole, date, iscrizioni) sulle fonti ufficiali. Testo completo: [../AVVERTENZE.md](../AVVERTENZE.md).
 
 ## Uso rapido
 
@@ -52,7 +52,7 @@ La mia richiesta: <scrivi qui la domanda>
 English version of this folder, for those who don't speak Italian (an English translation; if the two differ, the Italian version prevails): [ai/](https://github.com/DonFlammer/unito-ofa-maths/tree/main/ai) in DonFlammer/unito-ofa-maths.
 Il sito con gli stessi contenuti, quiz interattivi, simulazioni a tempo e piano di studio calcolato sulle tue date: https://donflammer.github.io/unito-ofa-matematica/
 Appunti del primo anno di Informatica UniTo, con il loro contesto per le AI: [DonFlammer/unito-informatica](https://github.com/DonFlammer/unito-informatica).
-Autore: DonFlammer · Telegram @rapsodico (https://t.me/rapsodico), senza impegno di risposta. Licenza CC BY-NC-SA 4.0.
+Sono DonFlammer · Telegram @rapsodico (https://t.me/rapsodico), senza impegno di risposta. Licenza CC BY-NC-SA 4.0.
 
 Ultimo aggiornamento: 30/09/2026 (prima versione completa: regole verificate il 29/09/2026, appunti degli otto moduli, test d'ingresso, simulazioni, piano di studio, corso ufficiale e refusi verificati).
 
@@ -158,7 +158,7 @@ Fonti: regolamento didattico del corso di laurea (coorte 2026), articolo 2, comm
 > 1. **Controlla il libretto** su [MyUnito](https://my.unito.it): se c'è «INT1475 OFA - MATEMATICA», l'OFA ce l'hai.
 > 2. **Entra su [www.ofa.unito.it](https://www.ofa.unito.it)** con le credenziali SCU di UniTo (le stesse di MyUnito). Serve essere già iscritti e avere lo stato di studente attivo.
 > 3. **Iscriviti al corso «OFA Matematica»**: dal menu Corsi → Attività OFA, oppure [direttamente qui](https://www.ofa.unito.it/course/view.php?id=20). L'iscrizione non chiede chiavi.
-> 4. **Studia tutto il materiale** degli 8 moduli: le domande dell'esame sono preparate su tutto quello che c'è sulla piattaforma. Gli appunti di questo sito seguono gli stessi moduli; com'è organizzato il corso, e quali refusi abbiamo trovato nel suo materiale, lo trovi nella pagina [Il corso ufficiale](https://donflammer.github.io/unito-ofa-matematica/corso.html).
+> 4. **Studia tutto il materiale** degli 8 moduli: le domande dell'esame sono preparate su tutto quello che c'è sulla piattaforma. Gli appunti di questo sito seguono gli stessi moduli; com'è organizzato il corso, e quali refusi sono stati trovati nel suo materiale, lo trovi nella pagina [Il corso ufficiale](https://donflammer.github.io/unito-ofa-matematica/corso.html).
 > 5. **Prenota un turno d'esame** su MyUnito, sezione Esami, appena aprono le iscrizioni: uno solo per sessione, posti a numero chiuso.
 > 6. **Presentati puntuale** in Laboratorio Turing con un documento d'identità.
 
@@ -275,7 +275,7 @@ Il corso di laurea ha anche una commissione di **tutorato individuale** per le m
 
 ---
 titolo: "Il corso «OFA Matematica»"
-breve: "Com'è organizzato il corso della piattaforma OFA, su cui è costruita la prova: moduli, unità e attività, la notazione che usa e i refusi che abbiamo trovato nel suo materiale. Controllato il 30 settembre 2026."
+breve: "Com'è organizzato il corso della piattaforma OFA, su cui è costruita la prova: moduli, unità e attività, la notazione che usa e i refusi trovati nel suo materiale. Controllato il 30 settembre 2026."
 ---
 
 ## In breve
@@ -378,7 +378,7 @@ Gli appunti usano la stessa notazione, così alla prova non trovi sorprese:
 
 ## Refusi nel materiale
 
-Ricalcolando gli esercizi del corso per scrivere gli appunti abbiamo trovato alcuni refusi. Ognuno è stato ricontrollato con il calcolo simbolico e **confrontato con la pagina o il PDF originale** il 30 settembre 2026. Negli appunti c'è la versione corretta. L'elenco riporta solo i refusi che abbiamo verificato e non è una revisione completa del materiale; nel modulo 3 non ne abbiamo trovati. Se ne trovi altri puoi segnalarli all'[helpdesk della piattaforma](https://www.ofa.unito.it/helpdesk/index.php?t=tcre).
+Ricalcolando gli esercizi del corso per scrivere gli appunti si sono trovati alcuni refusi. Ognuno è stato ricontrollato con il calcolo simbolico e **confrontato con la pagina o il PDF originale** il 30 settembre 2026. Negli appunti c'è la versione corretta. L'elenco riporta solo i refusi verificati e non è una revisione completa del materiale; nel modulo 3 non se ne sono trovati. Se ne trovi altri puoi segnalarli all'[helpdesk della piattaforma](https://www.ofa.unito.it/helpdesk/index.php?t=tcre).
 
 ### Modulo 1
 

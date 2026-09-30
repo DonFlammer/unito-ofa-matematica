@@ -28,7 +28,7 @@ Fonti: regolamento didattico del corso di laurea (coorte 2026), articolo 2, comm
 > 1. **Controlla il libretto** su [MyUnito](https://my.unito.it): se c'è «INT1475 OFA - MATEMATICA», l'OFA ce l'hai.
 > 2. **Entra su [www.ofa.unito.it](https://www.ofa.unito.it)** con le credenziali SCU di UniTo (le stesse di MyUnito). Serve essere già iscritti e avere lo stato di studente attivo.
 > 3. **Iscriviti al corso «OFA Matematica»**: dal menu Corsi → Attività OFA, oppure [direttamente qui](https://www.ofa.unito.it/course/view.php?id=20). L'iscrizione non chiede chiavi.
-> 4. **Studia tutto il materiale** degli 8 moduli: le domande dell'esame sono preparate su tutto quello che c'è sulla piattaforma. Gli appunti di questo sito seguono gli stessi moduli; com'è organizzato il corso, e quali refusi abbiamo trovato nel suo materiale, lo trovi nella pagina [Il corso ufficiale](sito:corso.html).
+> 4. **Studia tutto il materiale** degli 8 moduli: le domande dell'esame sono preparate su tutto quello che c'è sulla piattaforma. Gli appunti di questo sito seguono gli stessi moduli; com'è organizzato il corso, e quali refusi sono stati trovati nel suo materiale, lo trovi nella pagina [Il corso ufficiale](sito:corso.html).
 > 5. **Prenota un turno d'esame** su MyUnito, sezione Esami, appena aprono le iscrizioni: uno solo per sessione, posti a numero chiuso.
 > 6. **Presentati puntuale** in Laboratorio Turing con un documento d'identità.
 
