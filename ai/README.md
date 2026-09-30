@@ -2,7 +2,7 @@
 
 Questa cartella raccoglie in Markdown tutto ciò che serve a un'AI per aiutare a recuperare l'**OFA di matematica** del corso di laurea in Informatica dell'Università di Torino **senza rifare le ricerche da zero**: le regole ufficiali con le fonti, le date, com'è fatta la prova, com'è organizzato il corso della piattaforma OFA (con i refusi del materiale già verificati), gli appunti completi degli otto moduli, un test d'ingresso, otto simulazioni della prova e un piano di studio. Le pagine del sito sono generate da questi stessi file, quindi il contenuto è identico.
 
-> **⚠️ Avvertenze.** Ricerche e testi si basano su fonti pubbliche del corso di laurea e di UniTo e sul materiale del corso «OFA Matematica», consultato sulla piattaforma con l'accesso di uno studente. Ogni risultato matematico è stato ricalcolato una seconda volta, in modo indipendente, con il calcolo simbolico. Sono accurati e con fonti, ma possono contenere errori o dati superati. **L'autore non si assume alcuna responsabilità**; chi li usa lo fa a proprio rischio e deve verificare le informazioni importanti (regole, date, iscrizioni) sulle fonti ufficiali. Testo completo: [../AVVERTENZE.md](../AVVERTENZE.md).
+> **⚠️ Avvertenze.** Ricerche e testi si basano su fonti pubbliche del corso di laurea e di UniTo e sul materiale del corso «OFA Matematica», consultato sulla piattaforma con l'accesso di uno studente. Ogni risultato matematico è stato ricalcolato una seconda volta, in modo indipendente, con il calcolo simbolico. Sono accurati e con fonti, ma possono contenere errori o dati superati. **Io, DonFlammer, che pubblico questa guida, non mi assumo alcuna responsabilità**; chi li usa lo fa a proprio rischio e deve verificare le informazioni importanti (regole, date, iscrizioni) sulle fonti ufficiali. Testo completo: [../AVVERTENZE.md](../AVVERTENZE.md).
 
 ## Uso rapido
 
@@ -40,6 +40,6 @@ La mia richiesta: <scrivi qui la domanda>
 English version of this folder, for those who don't speak Italian (an English translation; if the two differ, the Italian version prevails): [ai/](https://github.com/DonFlammer/unito-ofa-maths/tree/main/ai) in DonFlammer/unito-ofa-maths.
 Il sito con gli stessi contenuti, quiz interattivi, simulazioni a tempo e piano di studio calcolato sulle tue date: https://donflammer.github.io/unito-ofa-matematica/
 Appunti del primo anno di Informatica UniTo, con il loro contesto per le AI: [DonFlammer/unito-informatica](https://github.com/DonFlammer/unito-informatica).
-Autore: DonFlammer · Telegram @rapsodico (https://t.me/rapsodico), senza impegno di risposta. Licenza CC BY-NC-SA 4.0.
+Sono DonFlammer · Telegram @rapsodico (https://t.me/rapsodico), senza impegno di risposta. Licenza CC BY-NC-SA 4.0.
 
 Ultimo aggiornamento: 30/09/2026 (prima versione completa: regole verificate il 29/09/2026, appunti degli otto moduli, test d'ingresso, simulazioni, piano di studio, corso ufficiale e refusi verificati).

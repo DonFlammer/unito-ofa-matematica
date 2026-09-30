@@ -1,6 +1,6 @@
 ---
 titolo: "Il corso «OFA Matematica»"
-breve: "Com'è organizzato il corso della piattaforma OFA, su cui è costruita la prova: moduli, unità e attività, la notazione che usa e i refusi che abbiamo trovato nel suo materiale. Controllato il 30 settembre 2026."
+breve: "Com'è organizzato il corso della piattaforma OFA, su cui è costruita la prova: moduli, unità e attività, la notazione che usa e i refusi trovati nel suo materiale. Controllato il 30 settembre 2026."
 ---
 
 ## In breve
@@ -103,7 +103,7 @@ Gli appunti usano la stessa notazione, così alla prova non trovi sorprese:
 
 ## Refusi nel materiale
 
-Ricalcolando gli esercizi del corso per scrivere gli appunti abbiamo trovato alcuni refusi. Ognuno è stato ricontrollato con il calcolo simbolico e **confrontato con la pagina o il PDF originale** il 30 settembre 2026. Negli appunti c'è la versione corretta. L'elenco riporta solo i refusi che abbiamo verificato e non è una revisione completa del materiale; nel modulo 3 non ne abbiamo trovati. Se ne trovi altri puoi segnalarli all'[helpdesk della piattaforma](https://www.ofa.unito.it/helpdesk/index.php?t=tcre).
+Ricalcolando gli esercizi del corso per scrivere gli appunti si sono trovati alcuni refusi. Ognuno è stato ricontrollato con il calcolo simbolico e **confrontato con la pagina o il PDF originale** il 30 settembre 2026. Negli appunti c'è la versione corretta. L'elenco riporta solo i refusi verificati e non è una revisione completa del materiale; nel modulo 3 non se ne sono trovati. Se ne trovi altri puoi segnalarli all'[helpdesk della piattaforma](https://www.ofa.unito.it/helpdesk/index.php?t=tcre).
 
 ### Modulo 1
 

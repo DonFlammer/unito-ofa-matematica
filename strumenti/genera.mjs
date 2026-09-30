@@ -98,7 +98,7 @@ function piede(r) {
 <div>
 <h4>OFA di matematica</h4>
 <p>Guida non ufficiale al recupero dell'OFA di matematica per il corso di laurea in Informatica dell'Università di Torino, a.a. 2026/27. Aggiornata al ${AGGIORNATO}.</p>
-<p>Guida non ufficiale, sul programma del corso OFA e sulle pagine ufficiali di UniTo; pubblicata da DonFlammer. Può contenere errori: per regole, date e iscrizioni valgono solo le fonti ufficiali. ${est(`${REPO}/blob/main/AVVERTENZE.md`, 'Avvertenze')}</p>
+<p>Guida non ufficiale, sul programma del corso OFA e sulle pagine ufficiali di UniTo; la pubblico io, DonFlammer. Può contenere errori: per regole, date e iscrizioni valgono solo le fonti ufficiali. ${est(`${REPO}/blob/main/AVVERTENZE.md`, 'Avvertenze')}</p>
 </div>
 <div>
 <h4>La guida</h4>
@@ -159,14 +159,14 @@ function pagina({ percorso, titolo, descrizione, corpo, attivo = '', lettura = f
 ${katex ? `<link rel="stylesheet" href="${r}assets/katex/katex.min.css">\n` : ''}</head>
 <body data-radice="${r}"${attr}>
 <canvas id="stelle" aria-hidden="true"></canvas>
+<script src="${r}assets/js/stelle.js"></script>
 <a class="salta" href="#contenuto">Salta al contenuto</a>
 ${barra(r, attivo, lettura, urlEn)}
 <main id="contenuto">
 ${corpo}
 </main>
 ${piede(r)}
-${dm ? `<script type="application/json" id="dati-moduli">${JSON.stringify(datiModuli).replace(/</g, '\\u003c')}</script>\n` : ''}<script src="${r}assets/js/stelle.js" defer></script>
-<script src="${r}assets/js/sito.js" defer></script>
+${dm ? `<script type="application/json" id="dati-moduli">${JSON.stringify(datiModuli).replace(/</g, '\\u003c')}</script>\n` : ''}<script src="${r}assets/js/sito.js" defer></script>
 <script src="${r}assets/js/studio.js" defer></script>
 </body>
 </html>
@@ -199,7 +199,7 @@ for (const [k, m] of moduli.entries()) {
 <p>La prova è costruita su questo materiale. Dopo gli appunti, leggi il libro di ogni unità, prova i fogli «Esplora», svolgi gli esercizi in PDF e i test online. Serve l'accesso con le credenziali SCU e l'iscrizione al corso «OFA Matematica»; come usare ogni attività è spiegato nella pagina <a href="../corso.html">Il corso ufficiale</a>.</p>
 <ul class="portale-lista">${p.attivita.map(a => `<li><a href="${httpsSicuro(a.url)}" target="_blank" rel="noopener"><span class="tipo">${esc(a.tipo)}</span><span>${esc(a.nome)}</span></a></li>`).join('')}</ul>
 ${refusi[m.n] ? `<h3 id="refusi-noti">Refusi noti in questo materiale</h3>
-<p>Nel materiale di questo modulo abbiamo trovato alcuni refusi, verificati sulle pagine e sui PDF originali; negli appunti c'è la versione corretta.</p>
+<p>Nel materiale di questo modulo sono stati trovati alcuni refusi, verificati sulle pagine e sui PDF originali; negli appunti c'è la versione corretta.</p>
 ${refusi[m.n]}<p class="nota-piccola"><a href="../corso.html#modulo-${m.n}">I refusi di tutti i moduli</a>, con le avvertenze.</p>` : ''}</section>` : '';
   const prec = moduli.slice(0, k).reverse().find(x => x.pronto), succ = moduli.slice(k + 1).find(x => x.pronto);
   const nav = `<nav class="nav-moduli" aria-label="Altri moduli">
@@ -411,7 +411,7 @@ ${righe}
 /* ---------- file unico per le AI ---------- */
 
 {
-  const avvertenza = "> Avvertenze: ricerche e testi si basano su fonti pubbliche del corso di laurea e di UniTo e sul materiale del corso «OFA Matematica»; ogni risultato matematico è stato ricalcolato in modo indipendente con il calcolo simbolico. Sono accurati e con fonti, ma possono contenere errori o dati superati; l'autore non si assume alcuna responsabilità. Per regole, date e iscrizioni fanno fede solo le fonti ufficiali (pagina dei requisiti del corso di laurea, Esse3, piattaforma OFA). Testo completo: AVVERTENZE.md nella radice del repository. Licenza CC BY-NC-SA 4.0.";
+  const avvertenza = "> Avvertenze: ricerche e testi si basano su fonti pubbliche del corso di laurea e di UniTo e sul materiale del corso «OFA Matematica»; ogni risultato matematico è stato ricalcolato in modo indipendente con il calcolo simbolico. Sono accurati e con fonti, ma possono contenere errori o dati superati; io, DonFlammer, che pubblico questa guida, non mi assumo alcuna responsabilità. Per regole, date e iscrizioni fanno fede solo le fonti ufficiali (pagina dei requisiti del corso di laurea, Esse3, piattaforma OFA). Testo completo: AVVERTENZE.md nella radice del repository. Licenza CC BY-NC-SA 4.0.";
   const unisci = (nome, titolo, descrizione, parti) => {
     const testa = `# ${titolo}\n\n${descrizione} Generato da \`strumenti/genera.mjs\` (contenuti aggiornati al ${AGGIORNATO}): non modificarlo a mano, modifica i singoli file e rigenera. Prima di allegarlo compila la scheda «Chi studia» (file \`ai/studente.md\`), se vuoi un aiuto su misura.\n\n${avvertenza}\n`;
     const corpo = parti.filter(esiste).map(p => `\n\n---\n\n<!-- FILE: ${p} -->\n> File: \`${p}\`\n\n${leggi(p).trim()}`).join('');
