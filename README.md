@@ -19,7 +19,7 @@ Guida non ufficiale per recuperare l'**OFA di matematica** (obbligo formativo ag
 - **Il corso ufficiale**: com'è organizzato il corso «OFA Matematica» della piattaforma e i refusi del suo materiale, verificati sugli originali.
 - **Contesto per le AI** nella cartella [`ai/`](ai/): tutte le ricerche e tutti i contenuti in Markdown, da dare a qualsiasi AI senza rifare le ricerche. C'è un file unico con tutto ([`ai/_TUTTO_IN_UNO.md`](ai/_TUTTO_IN_UNO.md)) e uno leggero con regole e organizzazione ([`ai/_ESSENZIALE.md`](ai/_ESSENZIALE.md)); istruzioni e prompt da copiare sono in [`ai/README.md`](ai/README.md).
 
-I progressi (checklist, test, simulazioni, piano) restano salvati solo nel browser di chi usa il sito. Il sito non usa cookie né servizi esterni: caratteri e formule sono ospitati qui.
+I progressi restano nel browser. I profili locali e le copie di trasferimento cifrate valgono per tutte e quattro le guide; vedi [profili locali e sicurezza](SECURITY.md). Il sito non usa cookie né servizi esterni: caratteri e formule sono ospitati qui.
 
 ## Come è fatto
 
