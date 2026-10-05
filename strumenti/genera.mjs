@@ -43,7 +43,7 @@ const ESSE3 = 'https://esse3.unito.it/ListaAppelliOfferta.do';
 const AGGIORNATO = '30 settembre 2026';
 const SITO_EN = 'https://donflammer.github.io/unito-ofa-maths/';
 
-// la stessa pagina nella versione inglese (link «English» di ogni pagina)
+// la stessa pagina nella versione inglese: dal 05/10/2026 la versione inglese non c'è più e le pagine non hanno il link «English»
 const PAGINA_EN = { 'index.html': 'index.html', 'info.html': 'rules.html', 'piano.html': 'plan.html', 'simulazioni.html': 'mock-tests.html', 'test-ingresso.html': 'entry-test.html', 'formulario.html': 'formulas.html', 'corso.html': 'course.html', '404.html': 'index.html' };
 const MODULI_EN = ['01-language-sets-numbers', '02-polynomials', '03-equations-inequalities', '04-rational-radical-absolute-value', '05-analytic-geometry', '06-functions', '07-exponentials-logarithms', '08-trigonometry'];
 const ELENCO = [
@@ -101,7 +101,6 @@ ${voce('test', 'test-ingresso.html', "Test d'ingresso")}
 ${voce('piano', 'piano.html', 'Piano di studio')}
 ${voce('simulazioni', 'simulazioni.html', 'Simulazioni')}
 ${voce('info', 'info.html', 'Regole e date')}
-<a class="lingua" href="${urlEn}" hreflang="en" lang="en">English</a>
 <button type="button" class="anim-menu" id="anim-toggle" aria-pressed="false" aria-label="Animazioni ridotte" title="Animazioni ridotte: resta solo lo sfondo nero"><span class="anim-icona" aria-hidden="true"></span><span class="anim-testo">Animazioni ridotte</span></button>
 </nav>
 </div>${lettura ? '<span class="progresso-lettura" aria-hidden="true"></span>' : ''}</header>`;
@@ -166,7 +165,6 @@ function pagina({ percorso, titolo, descrizione, corpo, attivo = '', lettura = f
 <meta property="og:type" content="website">
 <meta property="og:title" content="${esc(titolo)}">
 <meta property="og:description" content="${esc(descrizione)}">
-<link rel="alternate" hreflang="en" href="${urlEn}">
 <link rel="icon" href="${ICONA}">
 <link rel="preload" href="${r}assets/fonts/source-serif-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="${r}assets/js/stelle.js" as="script">
@@ -348,7 +346,6 @@ paginaMarkdown({ md: 'ai/corso-ufficiale.md', percorso: 'corso.html', attivo: 'c
     ['È ammessa la calcolatrice?', '<p>No. Chi ha una disabilità o un DSA può chiedere strumenti compensativi e un terzo di tempo in più, seguendo la procedura di Ateneo prima della prova.</p>'],
   ].map(([d, r]) => `<details><summary>${d}</summary><div class="risposta">${r}</div></details>`).join('');
   const corpo = `<section class="frontespizio"><div class="contenitore">
-<p class="lingua-nota entra" style="--i:0" lang="en"><strong>Don't speak Italian?</strong> Read the <a class="link" href="${SITO_EN}" hreflang="en">English version</a> of this guide, for students who don't speak Italian.</p>
 <span class="occhiello entra" style="--i:0">Guida non ufficiale · Corso di laurea in Informatica · Università di Torino · a.a. 2026/27</span>
 <h1 class="entra" style="--i:1">Recupero dell'OFA di matematica</h1>
 <p class="sotto entra" style="--i:2">Chi al TOLC-S ha ottenuto meno di 5 punti su 20 nella sezione Matematica di base deve assolvere l'obbligo formativo aggiuntivo entro il primo anno. Questa guida raccoglie le regole ufficiali, gli <strong>appunti degli otto moduli</strong> del corso di riallineamento e gli strumenti per preparare la prova.</p>
