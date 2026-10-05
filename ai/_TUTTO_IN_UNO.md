@@ -49,7 +49,6 @@ La mia richiesta: <scrivi qui la domanda>
 | `_ESSENZIALE.md` | istruzioni, scheda studente, regole, corso ufficiale e piano uniti in un file (generato da `strumenti/genera.mjs`) |
 | `_TUTTO_IN_UNO.md` | tutti i file precedenti uniti (generato da `strumenti/genera.mjs`) |
 
-English version of this folder, for those who don't speak Italian (an English translation; if the two differ, the Italian version prevails): [ai/](https://github.com/DonFlammer/unito-ofa-maths/tree/main/ai) in DonFlammer/unito-ofa-maths.
 Il sito con gli stessi contenuti, quiz interattivi, simulazioni a tempo e piano di studio calcolato sulle tue date: https://donflammer.github.io/unito-ofa-matematica/
 Appunti del primo anno di Informatica UniTo, con il loro contesto per le AI: [DonFlammer/unito-informatica](https://github.com/DonFlammer/unito-informatica).
 Sono DonFlammer · Telegram @rapsodico (https://t.me/rapsodico), senza impegno di risposta. Licenza CC BY-NC-SA 4.0.

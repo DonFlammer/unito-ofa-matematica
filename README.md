@@ -2,8 +2,6 @@
 
 **Sito: https://donflammer.github.io/unito-ofa-matematica/**
 
-> **Don't speak Italian?** The English version of this guide, for students who don't speak Italian, is in [DonFlammer/unito-ofa-maths](https://github.com/DonFlammer/unito-ofa-maths).
-
 Guida non ufficiale per recuperare l'**OFA di matematica** (obbligo formativo aggiuntivo) del corso di laurea in Informatica dell'Università di Torino: chi al TOLC-S ha preso meno di 5/20 in Matematica di base deve seguire il corso «OFA Matematica» su www.ofa.unito.it e superarne l'esame entro il primo anno.
 
 > Guida non ufficiale, costruita sul programma del corso OFA ufficiale e sulle pagine di UniTo. Può contenere errori: per regole, date e iscrizioni valgono solo le fonti ufficiali. Leggi le [avvertenze](AVVERTENZE.md).

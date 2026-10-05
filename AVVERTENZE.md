@@ -6,4 +6,3 @@
 4. **Nessuna responsabilità.** Non rispondo di conseguenze dovute a informazioni sbagliate o superate. Aggiorno il sito quando possibile, senza garanzie e senza obbligo di rispondere a domande o segnalazioni.
 5. **Il materiale ufficiale resta di UniTo.** Libri, esercizi e test del corso OFA non sono copiati qui: il sito li cita e rimanda alla piattaforma, dove si accede con le credenziali SCU. Gli appunti sono scritti da capo, seguendo gli stessi argomenti.
 6. **Privacy.** Il sito non usa cookie, statistiche o servizi esterni. Spunte, risultati dei test e piano di studio restano solo nel browser di chi lo usa (memoria locale del browser).
-7. **English version.** [DonFlammer/unito-ofa-maths](https://github.com/DonFlammer/unito-ofa-maths) is an English translation of this guide for students who don't speak Italian. If the two versions differ, the Italian one prevails.
